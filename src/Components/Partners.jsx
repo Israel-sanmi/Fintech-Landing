@@ -11,7 +11,7 @@ import sbi from '../../assets/images/Fintech/Social/pr6.png'
 
 const Partners = () => {
   return (
-      <div className=' mb-32 md:mb-0'>
+      <div className=' mb-64 md:mb-0'>
           <div>
               <h1 className='font-bold md:text-4xl text-2xl text-center my-10'>Our Partners</h1>
           </div>

@@ -8,7 +8,10 @@ import design from "../../assets/images/Fintech/design.png";
 const Info = () => {
   return (
     <div className="bg-[#5976FF]/20 p-10 flex justify-center items-center">
-      <div className="bg-[#5976FF] absolute flex m-10 p-10 rounded-lg">
+      <div className="bg-[#5976FF] absolute md:flex block m-10 p-10 rounded-lg">
+        <div>
+          <img src={last} alt="" className="block md:hidden object-cover" />
+        </div>
         <div className="">
           <div className="flex justify-start flex-col gap-3">
             <h1 className="font-semibold text-2xl text-white">
@@ -36,7 +39,7 @@ const Info = () => {
           </div>
         </div>
         <div>
-          <img src={last} alt="" className=" object-cover" />
+          <img src={last} alt="" className="md:block hidden object-cover" />
         </div>
       </div>
       <img src={design} className="relative z-1000" alt="" />

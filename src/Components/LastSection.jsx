@@ -10,66 +10,66 @@ import link from '../../assets/images/Fintech/Social/link.svg'
 
 const LastSection = () => {
   return (
-    <div className="px-5 md:px-28 md:mt-0 mt-36 md:py-28">
+    <div className="px-5 md:px-28 md:mt-0 mt-64 md:py-28">
       <div className="grid grid-cols-2 md:grid-cols-5">
         <div>
           <img className="w-14 h-14 object-contain" src={logo} alt="" />
         </div>
         <div>
           <h1 className="font-bold text-md">Features</h1>
-          <p className="text-sm text-[#797979] py-2 cursor-pointer">Spend</p>
-          <p className="text-sm text-[#797979] py-2 cursor-pointer">Save</p>
-          <p className="text-sm text-[#797979] py-2 cursor-pointer">Budget</p>
+          <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 cursor-pointer">Spend</p>
+          <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 cursor-pointer">Save</p>
+          <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 cursor-pointer">Budget</p>
         </div>
         <div>
           <h1 className="font-bold text-md">Company</h1>
-          <p className="text-sm text-[#797979] py-2 cursor-pointer">Blog</p>
-          <p className="text-sm text-[#797979] py-2 cursor-pointer">
+          <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 cursor-pointer">Blog</p>
+          <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 cursor-pointer">
             Join our team
           </p>
-          <p className="text-sm text-[#797979] py-2 cursor-pointer">About Us</p>
-          <p className="text-sm text-[#797979] py-2 cursor-pointer">FAQs</p>
+          <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 cursor-pointer">About Us</p>
+          <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 cursor-pointer">FAQs</p>
         </div>
         <div>
           <h1 className="font-bold text-md">Legal</h1>
-          <p className="text-sm text-[#797979] py-2 cursor-pointer">Terms</p>
-          <p className="text-sm text-[#797979] py-2 cursor-pointer">Privacy</p>
-          <p className="text-sm text-[#797979] py-2 cursor-pointer">Security</p>
+          <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 cursor-pointer">Terms</p>
+          <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 cursor-pointer">Privacy</p>
+          <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 cursor-pointer">Security</p>
         </div>
         <div className="hidden md:block">
-          <p className="text-sm text-[#797979] py-2 text-right">
+          <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 text-right">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             ut euismod viverra sem posuere porttitor.
           </p>
-          <p className="text-sm text-[#797979] py-2 text-right">
+          <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 text-right">
             Info@fintech.com
           </p>
-          <p className="text-sm text-[#797979] py-2 text-right">
+          <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 text-right">
             +234-000-000-0000
           </p>
         </div>
       </div>
       <div className="md:hidden block">
-        <p className="text-sm text-[#797979] py-2 text-center">
+        <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           ut euismod viverra sem posuere porttitor.
         </p>
-        <p className="text-sm text-[#797979] py-2 text-center">
+        <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 text-center">
           Info@fintech.com
         </p>
-        <p className="text-sm text-[#797979] py-2 text-center">
+        <p className="md:text-sm text-xs text-[#797979] md:py-2 py-1 text-center">
           +234-000-000-0000
         </p>
       </div>
       <div className="md:flex block justify-around gap-3 my-10">
         <div className="flex justify-center items-center gap-2">
-          <img src={twitter} className="cursor-pointer" alt="" />
-          <img src={fb} className="cursor-pointer" alt="" />
-          <img src={insta} className="cursor-pointer" alt="" />
-          <img src={link} className="cursor-pointer" alt="" />
+          <img src={twitter} className="object-cover cursor-pointer" alt="" />
+          <img src={fb} className="object-cover cursor-pointer" alt="" />
+          <img src={insta} className="object-cover cursor-pointer" alt="" />
+          <img src={link} className="object-cover cursor-pointer" alt="" />
         </div>
         <div>
-          <p className="text-center text-[#797979] text-sm">
+          <p className="text-center text-[#797979] md:text-sm text-xs">
             Fintech is the leading online Investing and farming platform in
             Nigeria. Our customers have invested and earned <br /> billions of
             Naira that they would love to invest more.

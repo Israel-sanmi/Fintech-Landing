@@ -11,9 +11,9 @@ const Sponsors = () => {
   return (
     <div className="">
       {" "}
-      <div className="bg-[#5976FF] my-10  text-white">
-        <div className="md:inline-block block md:ml-5 ml-12 md:mx-0 mx-12 md:pl-28 pl-0 -mt-14">
-          <div className="md:flex block items-center gap-2 p-4 w-full rounded-md bg-white shadow-lg">
+      <div className="bg-[#5976FF] relative my-10 text-white">
+        <div className="md:w-[745px] w-[345px] md:-top-16 -top-24 md:left-7 left-5 absolute bg-white rounded-md  shadow-lg">
+          <div className="md:flex block items-center gap-2 p-4">
             <img
               src={bbc}
               className="md:w-1/2 w-auto mx-auto h-auto object-cover"
@@ -37,7 +37,7 @@ const Sponsors = () => {
           </div>
         </div>
         <div className="md:px-28 px-5 py-2 md:flex block items-center justify-around">
-          <img src={care} className="w-full my-5 h-auto block md:hidden" alt="" />
+          <img src={care} className="w-full my-5 mt-96 h-auto block md:hidden" alt="" />
           <div>
             <h1 className="md:text-xl text-2xl font-bold">
               We’re always happy to <br /> help you.
